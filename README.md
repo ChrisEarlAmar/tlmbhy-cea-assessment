@@ -117,22 +117,22 @@ Without at least one simulator running, you won’t see new events or alerts in 
 
 - Real-time feed of **sensor events** (latest at the top)
 - **Alerts panel** with severity levels:
-  - 🔴 **Critical**
-  - 🟠 **Warning**
-  - 🔵 **Info**
+    - 🔴 **Critical**
+    - 🟠 **Warning**
+    - 🔵 **Info**
 - Alerts show sensor info (ID, floor, room) and human-readable timestamps
 - Events and alerts both scrollable with most recent entries on top
 
 ### Anomaly Detection Rules
 
 - **Temperature**
-  - Sudden change >5°C within 2 minutes → Critical
-  - Out of 18–26°C range for >10 minutes → Warning
+    - Sudden change >5°C within 2 minutes → Critical
+    - Out of 18–26°C range for >10 minutes → Warning
 - **Motion**
-  - No motion during office hours (9–5) for >30 minutes → Info
-  - Unusual motion after 10PM on weekdays → Warning
+    - No motion during office hours (9–5) for >30 minutes → Info
+    - Unusual motion after 10PM on weekdays → Warning
 - **Alert Rate Limiting**
-  - Max 1 alert per sensor every 5 minutes
+    - Max 1 alert per sensor every 5 minutes
 
 ### State Management
 
